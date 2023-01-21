@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style1.css" rel="stylesheet">
+    <title>Roll the Dice</title>
+</head>
+
+<body>
+
+    <div class="container heading">
+        <h1>Dice it</h1>
+    </div>
+
+    <div class="game">
+        <div class="player1">
+            <h2>Player 1</h2>
+            <img src="Dice1.jpeg" alt="rolled" id="player1dice">
+        </div>
+        <div class="player2">
+            <h2>Player 2</h2>
+            <img src="Dice1.jpeg" alt="rolled" id="player2dice">
+        </div>
+        <div class="tools">
+            <button onclick="roll()">Rool</button>
+            <button onclick="reset()">reset</button>
+        </div>
+    </div>
+
+    <div class="results">
+        <h2 id="result">New game</h2>
+    </div>
+    
+    <script src="script.js" ></script>    
+</body>
+</html>
